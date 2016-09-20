@@ -1,16 +1,16 @@
 <?php
 // define
-require_once($_SERVER['DOCUMENT_ROOT'] . '/asset/function.php');
+require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
 ?>
 <html>
     <!-- header load -->
     <head>
-        <?php include_once(PATH . '/asset/head_base.php'); ?>
+        <?php include_once PATH.'/asset/head_base.php'; ?>
     </head>
 
     <body>
         <!-- navbar load -->
-        <?php include_once(PATH . '/asset/navbar.php'); ?>
+        <?php include_once PATH.'/asset/navbar.php'; ?>
 
         <!-- sidemenu load -->
         <div class="md-menu col-lg-2 col-md-2">
