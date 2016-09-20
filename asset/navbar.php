@@ -17,20 +17,20 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= NAV_LANGUAGE; ?>🌎 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <?php
-                            foreach (glob(PATH . '/asset/l18n/{*.php}', GLOB_BRACE) as $file) {
+                            foreach (glob(PATH.'/asset/l18n/{*.php}', GLOB_BRACE) as $file) {
                                 if (is_file($file)) {
-                                    include($file);
+                                    include $file;
 
-                                    $url = $_SERVER["REQUEST_URI"];
+                                    $url = $_SERVER['REQUEST_URI'];
                                     if (strpos($url, '?') !== false) {
-                                        $url = preg_replace("/\?.*=.*/", "", $url);
+                                        $url = preg_replace("/\?.*=.*/", '', $url);
                                     }
 
-                                    echo "<li>";
-                                        echo "<a href=\"" . $url . "?p=" . $page . "&l=" . basename($file, ".php") . "\">";
-                                            echo $LANGUAGE;
-                                        echo "</a>";
-                                    echo "</li>";
+                                    echo '<li>';
+                                    echo '<a href="'.$url.'?p='.$page.'&l='.basename($file, '.php').'">';
+                                    echo $LANGUAGE;
+                                    echo '</a>';
+                                    echo '</li>';
                                 }
                             }
                         ?>

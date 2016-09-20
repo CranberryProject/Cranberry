@@ -1,18 +1,18 @@
 <?php
 // define
-require_once($_SERVER['DOCUMENT_ROOT'] . '/asset/function.php');
+require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
 ?>
     <html>
     <!-- header load -->
 
     <head>
-        <?php include_once(PATH . '/asset/head_base.php'); ?>
-            <?php include_once(PATH . '/asset/head_editor.php'); ?>
+        <?php include_once PATH.'/asset/head_base.php'; ?>
+            <?php include_once PATH.'/asset/head_editor.php'; ?>
     </head>
 
     <body>
         <!-- navbar load -->
-        <?php include_once(PATH . '/asset/navbar.php'); ?>
+        <?php include_once PATH.'/asset/navbar.php'; ?>
             <!-- filename bar -->
             <div class="panel panel-default">
                 <div class="panel-heading">

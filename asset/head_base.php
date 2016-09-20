@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Title -->
-<title><?= h($page) . " :: " . SITE_NAME; ?></title>
+<title><?= h($page).' :: '.SITE_NAME; ?></title>
 
 <!-- Favicon -->
 <link rel="icon" href="/favicon.ico">
