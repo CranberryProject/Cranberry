@@ -1,5 +1,6 @@
 <?php
-$LANGUAGE = "中文 🇨🇳";
+
+$LANGUAGE = '中文 🇨🇳';
 
 // define strings for CN user
 define('SITE_NAME', 'Cranberry', true);

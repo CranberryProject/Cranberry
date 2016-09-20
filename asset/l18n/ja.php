@@ -1,5 +1,6 @@
 <?php
-$LANGUAGE = "日本語 🇯🇵";
+
+$LANGUAGE = '日本語 🇯🇵';
 
 // define strings for JP user
 define('SITE_NAME', 'Cranberry', true);
