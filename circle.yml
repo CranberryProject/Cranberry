@@ -1,6 +1,6 @@
+# circle.yml
 machine:
   php:
-    version: 5.6
     version: 7.0.4
 
 deployment:
