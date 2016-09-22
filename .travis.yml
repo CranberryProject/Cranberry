@@ -18,3 +18,11 @@ branches:
 
 script:
     - sh ./.travis/shell/php_lint.sh
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: Mg4rphlBJmeWMm26fop+bcIM3GFO3gpxwcUs1eKj+ZvUKeFBJQtD7W5mhyTTlZ5MBQBMe0LhfeNcCsiNMFW4SZA/3Cr2LyAKOi8oL/+O8FqLs6Qo2Fq/G7TJtvWu51tB9Yj7pu/JtYgoA7fR71p4AXJR7EpDqlQnp+OGbSR3u31UlugC4Lom8HTODb3RKBek1yoS5UYp8W5RT27+QSiLF2ZeVM+XizOm0OqqIffTBPd/wWQQ4ULLDeI8jxJEBTtoK/hfXX/tehX89z5raUYWu8vgntUwmHkhdC9DWy//CBmrylVUrCLbtNlT2+kSv0Gled5HW02i5EqDyAL8BVRhFTNBL+i6MOHU2f84M3vYZR47QpL54WtQ5v8TY/7vljaANtnWgRwsBzeT/TQYs4fF43hg3GwJht0l7j2vgC5HdVvxT7TOxfDchND4t0f71I/NTyk98jtAlHc/NvGOTMDKYk8p8C4ANb6MEbfiSvVdJH/gi2C4pjSV/WWOl8PwboLAlbwYBLeZb71p/8wOM+iCA6L8zyIIRUl8ZniC9MBm42TNyLNRx4tZq6+cyl38ecdB9wZjsvb/NtOppl4h8ORY+KSAB3EYsxIGeh29C4q0aKHaWWnfzPVKxMzLjsZUq9O178OS+Z8nlkZcjsxIdaKli41YCr7juIAqjCFBLWcEE/o=
+  app: cranberryproject
+  on:
+    repo: CranberryProject/Cranberry
