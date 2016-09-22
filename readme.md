@@ -12,6 +12,5 @@
 <p align="center">
     <a href="https://styleci.io/repos/68639205/"><img src="https://styleci.io/repos/68639205/shield"></a>
     <a href="https://travis-ci.org/CranberryProject/Cranberry"><img src="https://img.shields.io/travis/CranberryProject/Cranberry.svg?maxAge=2592000?style=flat-square"></a>
-    <a href="https://circleci.com/gh/CranberryProject/Cranberry"><img src="https://circleci.com/gh/CranberryProject/Cranberry.svg?style=shield&circle-token=977473446c917a0881273cd19dd658b1a294f6b3"></a>
     <a href="#"><img src="https://img.shields.io/badge/Tested_with-SideCI-blue.svg?style=flat-square"></a>
 </p>

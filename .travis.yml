@@ -1,4 +1,20 @@
-# .travis.yml
 language: php
-php:
-- 7.0.4
+
+sudo: false
+
+git:
+    depth: 1
+
+matrix:
+    include:
+        - php: 5.6
+        - php: 7.0
+    fast_finish: true
+
+branches:
+    only:
+        - master
+        - develop
+
+script:
+    - sh ./.travis/shell/php_lint.sh
