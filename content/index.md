@@ -1,29 +1,18 @@
-# Cranberry
+<p align="center"><img src="https://cdn.rawgit.com/CranberryProject/Cranberry/master/asset/logo/Cranberry.png" width="150px"></p>
+<h1 align="center">Cranberry</h1>
+<p align="center">PHP based Wiki software.</p>
+<p align="center">
+    <a href="https://github.com/CranberryProject/Cranberry/releases"><img src="https://img.shields.io/badge/version-Developing-blue.svg"></a>
+    <a href="http://php.net/"><img src="https://img.shields.io/badge/powered_by-PHP-3362c2.svg"></a>
+    <a><img src="https://img.shields.io/badge/license-MIT-212121.svg"></a>
+</p>
 
-Cranberry is PHP-based wiki software.
+<p align="center">「Cranberry」はPHPベースで開発されているオープンソースWikiソフトウェアです。</p>
 
-### THIS SOFTWARE IS UNDER DEVEROPMENT!! PLEASE DO NOT DEPLOY TO YOUR OWN SERVER!!
-
-[View Cranberry on Github](https://github.com/snowhite0804/Cranberry/)
-
-##### What is different from others?
-* Using markdown language for edit the wiki. (So easy to write)
-* Using Bootstrap Honoka. (So beautiful fonts)
-* **Not** using  any DataBase. (So easy to deploy)
-
-and more!
-
-
-##### What is the LICENSE?
-Cranberry is published under the MIT LICENSE!  
-You can fork, change theme, l18n...  
-If you are good deveroper, please send _PullRequest_ to improve Cranberry!!
-
-
-##### Contributions?
-Cranberry using some frameworks. Here is list of them.  
-Very thanks to all of the frameworks deveroper.
-
-* [Parsedown](http://parsedown.org/)
-* [Honoka](http://honokak.osaka/)
-* [jQuery](https://jquery.com/)
+<p align="center">
+    <a href="https://styleci.io/repos/68639205/"><img src="https://styleci.io/repos/68639205/shield?style=flat"></a>
+    <a href="https://travis-ci.org/CranberryProject/Cranberry"><img src="https://img.shields.io/travis/CranberryProject/Cranberry.svg?maxAge=2592000"></a>
+    <a href="https://sideci.com/gh/68639205/news_feed"><img src="https://img.shields.io/badge/Review-SideCI-blue.svg"></a>
+    <a href="https://zube.io/projects/4981/kanban"><img src="https://img.shields.io/badge/Kanban-Zube-9C27B0.svg"></a>
+    <a href="https://cranberry.katabamia.me/"><img src="https://img.shields.io/badge/Live_demo-here-lightgrey.svg"></a>
+</p>
