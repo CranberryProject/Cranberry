@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"></a>
+            <a class="navbar-brand" href="/">Cranberry</a>
             <p class="navbar-text"><?= NAV_MOTD; ?></p>
         </div>
 

@@ -1,8 +1,8 @@
 <?php
 
 define('PATH', $_SERVER['DOCUMENT_ROOT']);
-define('ERROR_PATH_404', PATH.'/content/404.md');
-define('CONTENT_MENU', PATH.'/content/menu.md');
+define('ERROR_PATH_404', '404');
+define('CONTENT_MENU', 'menu');
 
 $motd_file = file(PATH.'/asset/motd.txt');
 srand(time());
@@ -31,7 +31,7 @@ function mdConvert($mdname)
     if (file_exists(PATH.'/content/'.basename($mdname).'.md')) {
         $mdstr = file_get_contents(PATH.'/content/'.basename($mdname).'.md');
     } else {
-        $mdstr = file_get_contents(ERROR_PATH_404);
+        $mdstr = file_get_contents(PATH.'/content/'.ERROR_PATH_404.'.md');
     }
 
     $mdhtml = $parsedown->text($mdstr);

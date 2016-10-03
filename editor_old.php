@@ -47,12 +47,6 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
                             marked: marked
                         , }
                     , });
-
-                    var Editor = CodeMirror.fromTextArea(document.getElementById('input'), {
-                        mode: "markdown",
-                        lineNumbers: true,
-                        indentUnit: 4
-                    });
                 };
             </script>
             <style>

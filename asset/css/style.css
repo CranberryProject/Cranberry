@@ -5,7 +5,7 @@
 / /___/ /  / /_/ / / / / /_/ /  __/ /  / /  / /_/ / 
 \____/_/   \__,_/_/ /_/_.___/\___/_/  /_/   \__, /  
                                            /____/
-										   
+
 				 Created by katabame | katabamia
 */
 
@@ -41,13 +41,4 @@ img.emoji
 	width: 1em;
 	margin: 0 .05em 0 .1em;
 	vertical-align: -0.1em;
-}
-
-/* navbar logo */
-.navbar-brand
-{
-	background-image: url("/asset/logo/Cranberry.svg") no-repeat left center;
-	background-size: contain;
-	height: 50px;
-	width: 250px;
 }
