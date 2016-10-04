@@ -2,12 +2,11 @@
 // define
 require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
 ?>
-    <html>
+<html>
     <!-- header load -->
-
     <head>
         <?php include_once PATH.'/asset/head_base.php'; ?>
-            <?php include_once PATH.'/asset/head_editor.php'; ?>
+        <?php include_once PATH.'/asset/head_editor.php'; ?>
     </head>
 
     <body>
@@ -36,73 +35,5 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
                     </div>
                 </div>
             </div>
-            <script>
-                window.onload = function () {
-                    new Vue({
-                        el: '#editor'
-                        , data: {
-                            input: '<?= EDITOR_MESSAGE; ?>'
-                        , }
-                        , filters: {
-                            marked: marked
-                        , }
-                    , });
-
-                    var Editor = CodeMirror.fromTextArea(document.getElementById('input'), {
-                        mode: "markdown",
-                        lineNumbers: true,
-                        indentUnit: 4
-                    });
-                };
-            </script>
-            <style>
-                #input,
-                #output {
-                    display: block;
-                    width: 100%;
-                    outline: none;
-                }
-                
-                #input {
-                    float: left;
-                    height: 100%;
-                    width: 50%;
-                }
-                
-                #input textarea {
-                    background: #f0f0f0;
-                    border-right: 1px solid #eee;
-                    width: 100%;
-                    height: 100%;
-                    resize: none;
-                }
-                
-                #output {
-                    background: #f5f5f5;
-                    height: 100%;
-                    width: 50%;
-                    overflow: auto;
-                    float: right;
-                    padding: 15px;
-                }
-                /* AVOID NAVBAR BUG */
-                /*
-            ul {
-                padding: 1rem;
-                margin: 1rem;
-            }
-            */
-                
-                .filebar {
-                    width: 80%;
-                    margin: 0em 5em;
-                }
-                
-                .panel {
-                    width: 80%;
-                    margin: 0em 5em;
-                }
-            </style>
     </body>
-
-    </html>
+</html>
