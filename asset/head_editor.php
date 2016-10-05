@@ -20,7 +20,7 @@ window.onload = function () {
         },
     });
 
-    var Editor = CodeMirror.fromTextArea(document.getElementById('input'), {
+    var editor = CodeMirror.fromTextArea(document.getElementById('input'), {
         mode: "markdown",
         lineNumbers: true,
         indentUnit: 4
