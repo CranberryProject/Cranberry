@@ -35,6 +35,7 @@ function mdConvert($mdname)
     }
 
     $mdhtml = $parsedown->text($mdstr);
+
     return $mdhtml;
 }
 
