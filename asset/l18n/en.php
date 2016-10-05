@@ -10,3 +10,4 @@ define('EDITOR_DISCARD', 'Discard', true);
 define('EDITOR_FILENAME', 'File name', true);
 define('NAV_SEARCH', 'Search...', true);
 define('NAV_LANGUAGE', 'Language', true);
+define('ERROR_404', 'Sorry, but your requested `URL` was not found.<br>Please check `URL` and try again.', true);

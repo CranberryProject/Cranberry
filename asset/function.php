@@ -31,11 +31,10 @@ function mdConvert($mdname)
     if (file_exists(PATH.'/content/'.basename($mdname).'.md')) {
         $mdstr = file_get_contents(PATH.'/content/'.basename($mdname).'.md');
     } else {
-        $mdstr = file_get_contents(PATH.'/content/'.ERROR_PATH_404.'.md');
+        $mdstr = file_get_contents(PATH.'/content/'.ERROR_PATH_404.'.md').ERROR_404;
     }
 
     $mdhtml = $parsedown->text($mdstr);
-
     return $mdhtml;
 }
 

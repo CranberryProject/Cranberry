@@ -9,10 +9,11 @@
 
 <p align="center">「Cranberry」はPHPベースで開発されているオープンソースWikiソフトウェアです。</p>
 
+<p align="center"><a href="https://github.com/CranberryProject/Cranberry"><button class="btn btn-info">See us on Github!</button></a></p>
+
 <p align="center">
     <a href="https://styleci.io/repos/68639205/"><img src="https://styleci.io/repos/68639205/shield?style=flat"></a>
     <a href="https://travis-ci.org/CranberryProject/Cranberry"><img src="https://img.shields.io/travis/CranberryProject/Cranberry.svg?maxAge=2592000"></a>
     <a href="https://sideci.com/gh/68639205/news_feed"><img src="https://img.shields.io/badge/Review-SideCI-blue.svg"></a>
     <a href="https://zube.io/projects/4981/kanban"><img src="https://img.shields.io/badge/Kanban-Zube-9C27B0.svg"></a>
-    <a href="https://cranberry.katabamia.me/"><img src="https://img.shields.io/badge/Live_demo-here-lightgrey.svg"></a>
 </p>

@@ -10,3 +10,4 @@ define('EDITOR_DISCARD', '丢弃', true);
 define('EDITOR_FILENAME', '文件名', true);
 define('NAV_SEARCH', '搜索...', true);
 define('NAV_LANGUAGE', '語言', true);
+define('ERROR_404', '很抱歉，但你的要求`URL`没有被发现。<br>请检查`URL`，然后再试一次。', true);
