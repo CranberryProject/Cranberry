@@ -1,25 +1,8 @@
-#input,
-#output
-{
-    display: block;
-    width: 100%;
-    outline: none;
-}
-
 #input, .CodeMirror
 {
     float: left;
     height: 100%;
     width: 50%;
-}
-
-#input textarea
-{
-    background: #f0f0f0;
-    border-right: 1px solid #eee;
-    width: 100%;
-    height: 100%;
-    resize: none;
 }
 
 #output
@@ -31,23 +14,8 @@
     float: right;
     padding: 15px;
 }
-
-/* AVOID NAVBAR BUG */
-/*
-ul
-{
-    padding: 1rem;
-    margin: 1rem;
-}
-*/
-                
-.filebar
-{
-    width: 80%;
-    margin: 0em 5em;
-}
-                
-.panel
+      
+.filebar, .panel
 {
     width: 80%;
     margin: 0em 5em;
