@@ -25,9 +25,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
 
                 <!-- pagemenu -->
                 <ol class="breadcrumb">
-                    <li>Edit menu</li>
-                    <li>Coming</li>
-                    <li class="active">SOON</li>
+                    <li class="active"><a href="/editor.php?p=<?= $page; ?>">Edit</a></li>
+                    <li>Last Edited: <?= date("Y/m/d h:i:s a (T)", filemtime(PATH.'/content/'.basename($page).'.md')); ?></li>
                 </ol>
             </div>
 
