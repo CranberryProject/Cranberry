@@ -19,7 +19,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
 
         <!-- content -->
         <div class="md-content panel panel-default col-lg-10  col-md-10">
-            <div class="panel-body">
+            <div class="panel-header">
                 <!-- page title -->
                 <h1><?= h($page); ?></h1>
 
@@ -29,10 +29,13 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/asset/function.php';
                     <li>Last Edited: <?= date('Y/m/d h:i:s a (T)', filemtime(PATH.'/content/'.basename($page).'.md')); ?></li>
                 </ol>
             </div>
-
-            <div class="panel-footer">
+            <div class="panel-body">
                 <!-- md convert -->
                 <?= mdConvert(h($page)); ?>
+            </div>
+
+            <div class="panel-footer">
+                <!-- will add any function -->
             </div>
         </div>
 
