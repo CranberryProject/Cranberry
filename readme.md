@@ -2,7 +2,7 @@
 <h1 align="center">Cranberry</h1>
 <p align="center">PHP based Wiki software.</p>
 <p align="center">
-    <a href="https://github.com/CranberryProject/Cranberry/releases"><img src="https://img.shields.io/badge/version-Developing-blue.svg"></a>
+    <a href="https://github.com/CranberryProject/Cranberry/releases"><img src="https://img.shields.io/badge/Codename-Biscuit-blue.svg"></a>
     <a href="http://php.net/"><img src="https://img.shields.io/badge/powered_by-PHP-3362c2.svg"></a>
     <a><img src="https://img.shields.io/badge/license-MIT-212121.svg"></a>
 </p>
