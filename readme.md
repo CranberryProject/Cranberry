@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.rawgit.com/CranberryProject/Cranberry/master/asset/logo/Cranberry.png" width="150px"></p>
+<p align="center"><img src="https://cdn.rawgit.com/CranberryProject/Cranberry/Alamode/asset/logo/Cranberry.png" width="150px"></p>
 <h1 align="center">Cranberry</h1>
 <p align="center">PHP based Wiki software.</p>
 <p align="center">
